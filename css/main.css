@@ -1,0 +1,85 @@
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+.headerbox {
+   background-color: #dfccc8;
+   position: absolute;
+   height: 6%;
+   width: 100%;
+   color: #5a291e;
+   text-align: center;
+   font-size: 1.2em;
+   font-family: 'Clicker Script', cursive;
+   z-index: -1;
+}
+
+#logo {
+   position: absolute;
+   z-index: 0;
+   width: 30%;
+}
+
+main {
+   padding-top: 75px;
+}
+
+h1 {
+   font-size: 2em;
+   font-family: 'Clicker Script', cursive;
+   color:#5a291e;
+   padding: 1% 1% 1% 1%;
+}
+
+h2 {
+   font-size: 1.2em;
+   font-family: 'Josefin Slab', serif;
+   color: #838488;
+   padding: 1% 1% 1% 1%;
+}
+
+h3 {
+   font-size: 1.2em;
+   font-family: 'Josefin Sans', sans-serif;
+   color: #ee6230;
+   padding: 1% 1% 1% 1%;
+}
+
+h4 {
+   font-size: 1.2em;
+   font-family: 'Josefin Slab', serif;
+   color: #5a291e;
+   padding: 1% 1% 1% 1%;
+}
+
+h5 {
+   font-size: 0.8em;
+   font-family: 'Josefin Sans', sans-serif;
+   color: #5a291e;
+   padding: 1% 1% 1% 1%;
+}
+
+h6 {
+   font-size: 0.8em;
+   font-family: 'Josefin Sans', sans-serif;
+   color: #5a291e;
+   padding: 1% 1% 1% 1%;
+   text-decoration: underline;
+}
+
+h7 {
+   font-size: 0.8em;
+   font-family: Georgia;
+   color: #999999;
+   font-style: italic;
+   padding: 1% 1% 1% 1%;
+}
+
+p {
+   font-size: .5em;
+   font-family: 'Josefin Sans', sans-serif;
+   color: #dfccc8;
+   padding: 0% 1% 0% 1%;
+}
