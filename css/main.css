@@ -107,8 +107,8 @@ p {
 .fc-calendar .fc-head {
 	height: 30px;
 	line-height: 30px;
-	background: #ccc;
-	color: #fff;
+	background: #dfccc8;
+	color: #5a291e;
 }
 
 .fc-calendar .fc-body {
@@ -176,7 +176,7 @@ p {
 	font-size: 20px;
 	line-height: 20px;
 	font-weight: 700;
-	color: #ddd;
+	color: #ee6230;
 	text-shadow: 0 -1px 0 rgba(255,255,255,0.8);
 	bottom: 5px;
 	right: 5px;
@@ -189,10 +189,41 @@ p {
 }
 
 .fc-calendar .fc-row > div.fc-today {
-	background: #fff4c3;
+	background: #caeae9;
 }
 
 .fc-calendar .fc-row > div.fc-out {
 	opacity: 0.6;
 }
 /* End styling for calendar */
+/*Media Queries*/
+@media (min-width: 750px) {
+ ul {
+   text-align: center;
+ }
+ li {
+   display: inline-block;
+   padding: 5% 5% 5% 5%;
+ }
+}
+@media (min-width: 1200px) {
+  .headerbox {
+      font-size: 4em;
+      height: 15%;
+     }
+     h1 {
+      font-size: 4em;
+     }
+     h2 {
+      font-size: 2.4em;
+     }
+     h3, h4 {
+      font-size: 2.4em;
+     }
+     h5, h6, h7 {
+      font-size: 1.6em;
+     }
+     p {
+      font-size: 1em;
+     }
+}
