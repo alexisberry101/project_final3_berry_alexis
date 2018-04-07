@@ -92,6 +92,9 @@ p {
    color: #dfccc8;
    padding: 0% 2% 0% 2%;
 }
+#bread, #hotitem, #sandwich, #deli, #sides, #cookies, #cakes, #coffee, #smoothies, #soda {
+  padding: 2% 2% 0% 2%;
+}
 /* Styling for calendar */
 .fc-calendar-container {
 	position: relative;
@@ -205,6 +208,12 @@ p {
    display: inline-block;
    padding: 5% 5% 5% 5%;
  }
+}
+@media (min-width: 800px){
+  #bread, #hotitem, #sandwich, #deli, #sides, #cookies, #cakes, #coffee, #smoothies, #soda {
+    float: left;
+    clear: left;
+  }
 }
 @media (min-width: 1200px) {
   li {
