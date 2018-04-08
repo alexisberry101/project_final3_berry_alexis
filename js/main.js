@@ -17,3 +17,9 @@ var data = [{
         icon: 'http://www.google.com/mapfiles/markerA.png'
     }
 ];
+
+//Custom Javascript: To change "location" heading color to orange
+document.addEventListener ( 'DOMContentLoaded', function(){
+    var heading = document.getElementById( 'location' );
+    heading.style.color = "orange";
+}); 
