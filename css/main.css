@@ -77,7 +77,31 @@ p {
 #social {
   display: inline-block;
 }
+form {
+   padding: 2% 2% 2% 2%;
+   font-size: 1.2em;
+   font-family: 'Josefin Sans', sans-serif;
+   color: #5a291e;
+}
+input {
+    width: 60%;
+    max-width: 400px;
+    font-size: 1.2em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #5a291e;
+    background-color: #caeae9;
+    padding: 1% 1% 1% 1%;
+}
+select, textarea {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #5a291e;
+  background-color: #caeae9;
+  padding: 1% 1% 1% 1%; 
+}
 
+input[type="submit"] {
+	padding: 1% 1% 1% 1%;
+}
 /* Styling for calendar */
 .fc-calendar-container {
 	position: relative;

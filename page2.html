@@ -39,6 +39,33 @@
             <img src="img/instagram.png">
             <img src="img/twitter.png">
           </div>
+          <h2>Order Form</h2>
+          <form>
+            First Name:<br>
+            <input type="text" name="firstname"><br>
+            Last Name:<br>
+            <input type="text" name="lastname"><br>
+            Items:<br>
+            <select name="menu" size="10" multiple>
+              <option value="bread">Bread</option>
+              <option value="hotitems">Hot Items</option>
+              <option value="sandwiches">Sandwiches</option>
+              <option value="deli">Deli</option>
+              <option value="sides">Sides</option>
+              <option value="cookies">Cookies</option>
+              <option value="cakes">Cakes</option>
+              <option value="coffee">Coffee</option>
+              <option value="smoothies">Smoothies</option>
+              <option value="drinks">Drinks</option>
+            </select><br>
+            Quantity:<br>
+            <input type="text" name="quantity" placeholder= "1"><br>
+            Details:<br>
+            <textarea name="message" rows="10" cols="30">
+Please detail any specific requests for the items you are ordering.
+            </textarea><br>
+            <input type="submit" name="submit" id="submit" value="submit"/>
+          </form>
       </div>
       <div id="controls"></div>
       <div id="gmap" style="with:300px;height:250px;"></div>

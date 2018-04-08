@@ -26,5 +26,5 @@ document.addEventListener ( 'DOMContentLoaded', function(){
 
 //Custom jQuery: To add a heading to the jQuery Map plugin
 $(document).ready (function() {
-$( '#social' ).after( '<h2>Map</h2>' );
+$( 'form' ).after( '<h2>Map</h2>' );
 });
