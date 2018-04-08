@@ -22,4 +22,9 @@ var data = [{
 document.addEventListener ( 'DOMContentLoaded', function(){
     var heading = document.getElementById( 'location' );
     heading.style.color = "orange";
-}); 
+});
+
+//Custom jQuery: To add a heading to the jQuery Map plugin
+$(document).ready (function() {
+$( '#social' ).after( '<h2>Map</h2>' );
+});
