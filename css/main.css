@@ -4,12 +4,11 @@
    border: 0;
 }
 
-#logo {
-   width: 5%;
+.logo {
+   width: 50%;
+   max-width: 200px; 
 }
-#nav {
 
-}
 li a{
   text-decoration: none;
   list-style: none;
