@@ -1,22 +1,15 @@
 $(document).ready(function() {
     $.backstretch("img/apron.jpg");
     $( '#calendar' ).calendario();
-    new Maplace({
-    locations: data,
-    controls_type: 'list',
-    controls_on_map: false
-}).Load();
-
-});
-var data = [{
-        lat: 25.8,
-        lon: -80.19,
-        title: 'Nancy',
-        html: '<h3>Nancy</h3>',
-        zoom: 8,
-        icon: 'http://www.google.com/mapfiles/markerA.png'
+    $('#map').usmap({
+    // The click action
+    click: function(event, data) {
+      $('#clicked-state')
+        .text('You clicked: '+data.name)
+        .parent().effect('highlight', {color: '#C7F464'}, 2000);
     }
-];
+  });
+});
 
 //Custom Javascript: To change "location" heading color to orange
 document.addEventListener ( 'DOMContentLoaded', function(){
