@@ -78,10 +78,12 @@ p {
 }
 
 /* Styling for calendar */
-.fc-calendar-container {
-	position: relative;
-	height: 400px;
-	width: 400px;
+.fc-calendar .fc-row > div {
+  border: 1px solid #ddd;
+  padding: 1% 1% 5%;
+  overfolow: hidden;
+  position: relative;
+	min-height: 50px; 
 }
 
 .fc-calendar {
