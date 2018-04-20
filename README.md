@@ -1,9 +1,20 @@
 #Nancy's Bakery & Cafe 
 ##Links 
 [GitHub Repo] (https://github.com/alexisberry101/project_final3_berry_alexis) 
+
 [Web Host] (http://alexiswberry.com/project_final3_berry_alexis)
-[WC3 Validator] ()
-[HTML5 Outliner] ()
+
+[WC3 Validator Index File] (https://validator.w3.org/nu/#textarea)
+
+[WC3 Validator Menu File] (https://validator.w3.org/nu/#textarea)
+
+[WC3 Validator Contact File] (https://validator.w3.org/nu/#textarea)
+
+[HTML5 Outliner Index File] (https://gsnedders.html5.org/outliner/process.py)
+
+[HTML5 Outliner Menu File] (https://gsnedders.html5.org/outliner/process.py)
+
+[HTML5 Outliner Contact File] (https://gsnedders.html5.org/outliner/process.py)
 ##Resources 
 - [Apron Picture] (https://www.worldmarket.com/product/gray+stripe+twill+kitchen+linen+collection.do): This is where I got the picture of the apron for the page background 
 - [Bakery Website Inspiration] (http://whatpixel.com/bakery-web-design-inspiration/): I looked at the websites on this site for inspiration on creating my bakery/cafe website 
