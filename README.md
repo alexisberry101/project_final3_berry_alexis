@@ -31,8 +31,9 @@
 - [Cake Image] ( http://www.connachtgold.ie/recipes/irresistible-chocolate-cake/): This is where I found the cake image used on my menu page 
 - [Coffee Image] (http://loopworm.com/2017/10/03/like-coffee-must-know/): This is where I found the coffee image used on my menu page 
 - [Smoothie Image] (https://www.pinterest.com/mantczak/smoothies/?lp=true): This is where I found the smoothie image used on my menu page 
-- [Calendario Plugin] (https://tympanus.net/codrops/2012/11/27/calendario-a-flexible-calendar-plugin/): This is where I found the Calendario JQuery plugin for use on my home page 
-- [U.S. Map Plugin] (https://newsignature.github.io/us-map/#download): This is where I found the U.S. Map jQuery plugin for use on my contact page 
+- [Calendario Plugin] (https://tympanus.net/codrops/2012/11/27/calendario-a-flexible-calendar-plugin/): This is where I found the Calendario JQuery plugin for use on my home page. It displays a monthly calendar. 
+- [U.S. Map Plugin] (https://newsignature.github.io/us-map/#download): This is where I found the U.S. Map jQuery plugin for use on my contact page. It shows all the states and highlights states as the user scrolls over them. 
+- [Backstretch Plugin] (http://www.jquery-backstretch.com): I used the backstretch plugin to create a responsive backgroud image on all pages of my website. 
 
 ##Deductions
 I reviewed the list of deductions for this project and in the syllabus.
